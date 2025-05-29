@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: docs
+  
+website: 
+  title: "Work Portfolio"
+  navbar: 
+    left: 
+      - text: "CV" #additional indent, and action specifies file of my website
+        href: CV.qmd
+format: 
+  html: 
+    theme: solar
+    navigation: true 
