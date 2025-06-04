@@ -1,0 +1,44 @@
+---
+---
+pagetitle: "Jeremy Dubrulle | About"
+title: "Jeremy A. Dubrulle"
+subtitle: "Do you think phages inspired the Lunar Exploration Module (LEM) ?"
+image: photo_light.jpg
+image-alt: "Light_painting science"
+
+about:
+  id: hero-heading
+  template: jolla
+  image: assets/img/headshot.webp
+  image-width: 10em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/jadeynryan
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jadey-ryan/
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@jadeynryan
+      rel: me
+    - icon: briefcase-fill
+      text: Work
+      href: https://agr.wa.gov/AgScience
+    - text: "{{< iconify simple-icons kofi >}} Support me"
+      href: https://ko-fi.com/jadeyryan
+toc: false
+anchor-sections: false
+execute: 
+  freeze: true
+---
+
+::: {#hero-heading}
+:::
+
+## Hi there! You're at the right place to learn more about me!
+
+I'm XXX
+
+
+---

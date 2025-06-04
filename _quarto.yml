@@ -18,7 +18,6 @@ website:
   cookie-consent:
     type: express
     prefs-text: "Change cookies 🍪"
-
   navbar:
     pinned: true
     logo: assets/img/light_photo.jpg
@@ -41,16 +40,15 @@ website:
         aria-label: GoogleScholar
         href: https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en&oi=ao
         rel: me
-
   page-footer:
     border: true
-    left: "&#169; 2025 Jeremy DUBRULLE"
+    left: "© 2025 Jeremy DUBRULLE"
     right: "made with ♥️ & [Quarto](https://quarto.org)"
 
 
 format:
   html:
-    theme: [flatly, assets/styling/theme.scss]
+    theme: flatly
     toc: true
     toc-depth: 4
     page-layout: article
