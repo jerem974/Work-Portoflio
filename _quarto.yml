@@ -1,14 +1,74 @@
-project:
-  type: website
-  output-dir: docs
-  
-website: 
-  title: "Work Portfolio"
-  navbar: 
-    left: 
-      - text: "CV" #additional indent, and action specifies file of my website
+website:
+  title: "Jeremy Dubrulle"
+  description: "Phages-host interactions"
+  site-url: https://jerem974.github.io/Work-Portoflio/
+  repo-url: https://github.com/jerem974/Work-Portoflio
+  repo-actions:
+    - source
+    - issue
+  favicon: assets/img/light_photo.jpg
+  twitter-card:
+    creator: "@jeremydubrulle"
+  open-graph:
+    locale: en_EN
+  page-navigation: true
+  google-analytics:
+    tracking-id: "G-LEVV3VZT0E"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    prefs-text: "Change cookies 🍪"
+
+  navbar:
+    pinned: true
+    logo: assets/img/light_photo.jpg
+    logo-alt: "Jeremy Dubrulle"
+    left:
+      - text: About
+        icon: person-circle
+        href: index.qmd
+      - text: CV
+        icon: file-earmark-text-fill
         href: CV.qmd
-format: 
-  html: 
-    theme: solar
-    navigation: true 
+    right:
+      - icon: github
+        aria-label: GitHub
+        href: https://jerem974.github.io/Work-Portoflio/
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/jeremy-dubrulle-523094304
+      - icon: mastodon
+        aria-label: GoogleScholar
+        href: https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en&oi=ao
+        rel: me
+
+  page-footer:
+    border: true
+    left: "&#169; 2025 Jeremy DUBRULLE"
+    right: "made with ♥️ & [Quarto](https://quarto.org)"
+
+
+format:
+  html:
+    theme: [flatly, assets/styling/theme.scss]
+    toc: true
+    toc-depth: 4
+    page-layout: article
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-link: true
+    highlight-style: a11y
+
+output-dir: docs
+
+
+#website: 
+  #title: "Work Portfolio"
+  #navbar: 
+    #left: 
+      #- text: "CV" #additional indent, and action specifies file of my website
+      #  href: CV.qmd
+#format: 
+  #html: 
+    #theme: solar
+   # navigation: true 
