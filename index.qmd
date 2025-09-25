@@ -1,0 +1,74 @@
+---
+pagetitle: "Jeremy A. Dubrulle | About"
+title: "Jeremy A. Dubrulle"
+subtitle: "🐱 Microbiologist crazy about phages & nature 🌱"
+title-block-banner: true
+---
+
+<div class="hero">
+  <div class="hero-text">
+    <h1>Hi, I’m Jeremy.</h1>
+    <p>I study plasmid-borne antibiotic resistance and phage defense systems.</p>
+    <p>
+      <a class="btn cta" href="cv.qmd">View CV</a>
+      <a class="btn" href="talks.qmd">Talks</a>
+    </p>
+  </div>
+</div>
+
+#image: assets/img/JR-logo-circle.webp
+#image-alt: "Cat with tail shaped as the letter J next to last name initial R"
+
+#about:
+#  id: hero-heading
+#  template: jolla
+#  image: assets/img/headshot.webp
+#  image-width: 10em
+#  links:
+#    - icon: github
+#      text: GitHub
+#      href: https://github.com/jadeynryan
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/jadey-ryan/
+#    - text: "{{< iconify simple-icons bluesky >}} Bluesky"
+#      href: https://bsky.app/profile/jadeynryan.bsky.social
+#    - icon: mastodon
+#      text: Mastodon
+#      href: https://fosstodon.org/@jadeynryan
+#      rel: me
+#    - icon: briefcase-fill
+#      text: Work
+#      href: https://agr.wa.gov/AgScience
+#    - text: "{{< iconify simple-icons kofi >}} Support me"
+#      href: https://ko-fi.com/jadeyryan
+#toc: false
+#anchor-sections: false
+#execute: 
+#  freeze: true
+#---
+
+::: {#hero-heading}
+:::
+
+Hi there! ![](assets/img/JR-logo.webp){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
+
+Thanks for visiting my website fellow scientist -- Let's dive together in the incredivle world of (Bacterio)Phages!
+
+I'm a PhD student in the Fineran group (Phi Lab) at the University of Otago, Dunedin, New Zealand.  (https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran)
+I've had a diverse academic journey which took me in Cambridge (England), Marseille (France), Grenoble (France), Canberra (Australia), Reunion (France) and Dunedin (New Zealand). I hold a Bachelor degrees of Biology & Life Sciences from the University of Grenoble which I topped with a HonsBsc of Science at the University of Otago before finally taking the big leap: The PhD. 
+
+Success comes from More info here
+
+Fun fact, I grew up on Reunion Island - you won't hear that everyday! I bet you a post-doc contract you can't locate it on a map!
+Check it out: [Insert website]
+
+
+
+When it comes to work, I love improving the efficiency and reproducibility of our workflows. More here 
+
+Thanks for being a part of my journey. I'm by no means an expert at anything, but I plan on using this space to learn out loud!
+
+Insert text and image of website bottom 
+
+(assets/img/mts.webp){fig-alt="Three snowshoe siamese cats in loaf mode" fig-align="center" width="100%" height="auto"}

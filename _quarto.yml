@@ -1,0 +1,139 @@
+project:
+  type: website
+  output-dir: _site
+#  preview:
+#    port: 3434
+#    browser: true
+#    watch-inputs: true
+#    timeout: 3600
+
+#execute:
+#  freeze: auto
+
+website:
+  title: "Jeremy A. Dubrulle"
+  description: "Phages, AMR and antiphage systems on MGEs"
+  site-url: https://jerem974.github.io/Work-Portfolio/
+  repo-url: https://github.com/jerem974/Work-Portfolio
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: talks.qmd
+        text: Talks
+      - href: cv.qmd
+        text: CV
+      - href: blog/index.qmd
+        text: Blog
+      - href: projects/index.qmd
+        text: Projects
+
+    right:
+      - text: GitHub
+        href: https://github.com/<your-username>
+  page-footer:
+    center: "© Jeremy Dubrulle — built with Quarto"
+  favicon: assets/favicon.png
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    css: assets/styles.css
+
+# social cards / SEO
+metadata-files: [assets/seo.yml]
+
+
+execute:
+  freeze: auto
+#The following is currently disactivated by adding # but can be reactivated later
+
+#  repo-actions:
+#    - source
+#    - issue
+#  favicon: assets/img/JR-logo-circle.webp
+#  twitter-card:
+#    creator: "@jadeynryan"
+#    # commented out images so I could specify them individually for various pages
+#    # image: assets/img/JR-logo-circle.webp
+#    # image-alt: "Cat with tail shaped as the letter J next to last name initial R"
+# open-graph:
+#    locale: en_EN
+#    # image: assets/img/JR-logo-circle.webp
+#    # image-alt: "Cat with tail shaped as the letter J next to last name initial R"
+#  page-navigation: true
+#  google-analytics:
+#    tracking-id: "G-LEVV3VZT0E"
+#    anonymize-ip: true
+#  cookie-consent:
+#    type: express
+#    prefs-text: "Change cookies 🍪"
+#
+#  navbar:
+#    pinned: true
+#    logo: assets/img/JR-logo-circle.webp
+#    logo-alt: "Cat with tail shaped as the letter J next to last name initial R"
+#    left:
+#      - text: About
+#        icon: person-circle
+#       href: index.qmd
+#      - text: CV
+#        icon: file-earmark-text-fill
+#        href: cv.qmd
+#      - text: Blog
+#        icon: pen-fill
+#        href: blog.qmd
+#     - text: Talks
+#        icon: mic-fill
+#        href: talks.qmd
+#      - text: Projects
+#        icon: puzzle-fill
+#        href: projects.qmd
+#      - text: The Coding Cats
+#        icon: bag-heart-fill
+#        href: shop.qmd
+#    right:
+#      - icon: rss
+#        aria-label: rss
+#        href: blog.xml
+#      - icon: github
+#        aria-label: GitHub
+#        href: https://github.com/jadeynryan
+#      - icon: linkedin
+#        aria-label: LinkedIn
+#       href: https://www.linkedin.com/in/jadey-ryan/
+#      - text: "{{< iconify simple-icons bluesky >}}"
+#        href: https://bsky.app/profile/jadeynryan.bsky.social
+#      - icon: mastodon
+#        aria-label: Mastodon
+#        href: https://fosstodon.org/@jadeynryan
+#       rel: me
+#      - text: "{{< iconify simple-icons kofi size=1.15em title='Support Me' >}}"
+#        href: https://ko-fi.com/jadeyryan
+#
+#  page-footer:
+#    border: true
+#    left: "&#169; 2023-2025 Jadey Ryan"
+#    center:
+#      - text: Code of conduct
+#        href: coc.qmd
+#      - text: Accessibility
+#        href: accessibility.qmd
+#      - text: License
+#        href: license.qmd
+#    right: "made with ︎♥️ & [Quarto](https://quarto.org)"
+
+#format:
+#  html:
+#    theme: [flatly, assets/styling/theme.scss]
+#    toc: true
+#    toc-depth: 4
+#    pagetitle: "{{< meta title >}} | Jadey Ryan"
+#    page-layout: article
+#    smooth-scroll: true
+#    link-external-newwindow: true
+#    code-link: true
+#    highlight-style: a11y

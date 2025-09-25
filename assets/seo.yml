@@ -1,0 +1,5 @@
+image: assets/social.png      # 1200×630 recommended; add the file later
+twitter-card:
+  creator: "@your_handle"     # optional
+  site: "@your_handle"        # optional
+  image: assets/social.png #Add your social.png photo here

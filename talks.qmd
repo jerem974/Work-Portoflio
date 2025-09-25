@@ -1,0 +1,8 @@
+---
+title: "Talks"
+listing:
+  contents: talks
+  type: grid
+  sort: "date desc"
+  fields: [title, date, categories, description]
+---

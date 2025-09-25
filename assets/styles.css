@@ -1,0 +1,10 @@
+/* Hero */
+.hero { padding: 4rem 0; }
+.hero-text { max-width: 900px; margin: 0 auto; text-align: center; }
+.btn { display:inline-block; padding:.6rem 1rem; border:1px solid #222; border-radius:.5rem; text-decoration:none; margin-right:.5rem; }
+.btn:hover { text-decoration:none; opacity:.85; }
+.btn.cta { background:#FECC66; border-color:#FECC66; }
+
+/* Listing cards */
+.quarto-listing .listing-item { border:1px solid #eee; border-radius:.75rem; padding:1rem; transition:transform .05s ease; }
+.quarto-listing .listing-item:hover { transform: translateY(-1px); }
