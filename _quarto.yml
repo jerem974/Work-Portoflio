@@ -1,20 +1,21 @@
 project:
   type: website
   output-dir: _site
-#  preview:
-#    port: 3434
-#    browser: true
-#    watch-inputs: true
-#    timeout: 3600
-
+  render:
+    - index.qmd
+    - talks.qmd
+    - cv.qmd
+    - blog/index.qmd
+    - projects/index.qmd
+    - blog/blog.qmd
 #execute:
 #  freeze: auto
 
 website:
   title: "Jeremy A. Dubrulle"
   description: "Phages, AMR and antiphage systems on MGEs"
-  site-url: https://jerem974.github.io/Work-Portfolio/
-  repo-url: https://github.com/jerem974/Work-Portfolio
+  site-url: https://jerem974.github.io/Work-Portoflio
+  repo-url:  https://github.com/jerem974/Work-Portoflio
 
   navbar:
     left:
