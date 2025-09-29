@@ -27,4 +27,4 @@ listing:
     ![Poster EEID](assets/img/poster_EEID.pdf){width="150"}
 
 -   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser* \
-    [▶ Watch](assets/video/EEID_short.mp4){.btn .btn-sm target="_blank" rel="noopener"}
+    [▶ Watch](assets/video/EEID_11MB.mp4){.btn .btn-sm target="_blank" rel="noopener"}
