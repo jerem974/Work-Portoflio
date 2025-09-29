@@ -8,17 +8,17 @@ Click to download my CV ! [Download CV (PDF)](assets/Jeremy_Dubrulle_CV.pdf){.bt
 
 #### Education
 
-\![Education map\] ![Education map](assets/img/Education_map.png){width="400"}
+![Education map](assets/img/Education_map.png){width="100%" fig-align="center"}
 
-\#### First & first co-author Publications
+#### First & first co-author Publications
 
-- Effect of Land-Use on Hantavirus Infection … *Ecology and Evolution, April 2025*  
-  [Read me](https://doi.org/10.1002/ece3.70914){.btn .btn-sm target="_blank" rel="noopener"}  
-  ![Madagascar article](assets/articles/article_mada.png){width="350"}
+-   Effect of Land-Use on Hantavirus Infection … *Ecology and Evolution, April 2025*\
+    [Read me](https://doi.org/10.1002/ece3.70914){.btn .btn-sm target="_blank" rel="noopener"}\
+    ![Madagascar article](assets/articles/article_mada.png){width="350"}
 
-- CRISPR2025 New Zealand … *The Crispr Journal, May 2025*  
-  [Read me](https://doi.org/10.1089/crispr.2025.0026){.btn .btn-sm target="_blank" rel="noopener"}  
-  ![CRISPR article](assets/articles/crispr.png){width="350"}
+-   CRISPR2025 New Zealand … *The Crispr Journal, May 2025*\
+    [Read me](https://doi.org/10.1089/crispr.2025.0026){.btn .btn-sm target="_blank" rel="noopener"}\
+    ![CRISPR article](assets/articles/crispr.png){width="350"}
 
 #### Co-author Publications
 

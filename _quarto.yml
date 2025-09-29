@@ -42,7 +42,7 @@ format:
     theme: cosmo
     toc: true
     code-copy: true
-    css: assets/styles.css
+    css: assets/styling/yellow_theme.css
 
 # social cards / SEO
 metadata-files: [assets/seo.yml]
