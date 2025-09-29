@@ -23,30 +23,26 @@ about:
       href: https://ko-fi.com/jadeyryan
 ---
 
-
 :::: hero
 ::: hero-text
 # Hi, I’m Jeremy.
 
-I study plasmid-borne antibiotic resistance and phage defense systems.
+I study plasmid-borne antibiotic resistance and phage defense systems in the context of Phage Therapy
 
-I'm also a big fan of nature's craziest evolution outcomes: Have you seen a male and a female Anglerfish reproduce???
+I'm also a big fan of nature's craziest evolution: Have you seen a male and a female Anglerfish reproduce?
 
 [View CV](cv.qmd){.btn .cta} [Talks](talks.qmd){.btn}
 :::
 ::::
 
-image: assets/img/JR-logo-circle.webp #image-alt: "Cat with tail shaped as the letter J next to last name initial R"
-
-
 ::: {#hero-heading}
 :::
 
-Hi there! ![](assets/img/JR-logo.webp){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
+Hi there!
 
 Thanks for visiting my website fellow scientist -- Let's dive together in the incredible world of (Bacterio)Phages!
 
-I'm a PhD student in the Fineran group (Phi Lab) at the University of Otago, Dunedin, New Zealand. (https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran)
+I'm a PhD student in the Fineran group (Phi Lab) at the University of Otago, Dunedin, New Zealand. [To PhiLab homepage](https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran){.btn .cta}
 
 I've had a diverse academic journey which took me to:
 
@@ -64,12 +60,8 @@ I've had a diverse academic journey which took me to:
 
     Success comes from More info here
 
-Fun fact, I grew up on Reunion Island - you won't hear that everyday! I bet you a post-doc contract you can't locate it on a map! Check it out: \[Insert website\]
+Fun fact, I grew up on Reunion Island - you won't hear that everyday! I bet you a post-doc contract you can't locate it on a map! Check it out: [To Reunion Island blog](https://en.reunion.fr/organize/blog/)
 
-When it comes to work, I love improving the efficiency and reproducibility of our workflows. More here
+When it comes to work, I love the lab! Give me a petri dish of bacteria, and I'll make millions (of phages, of course!).
 
-Thanks for being a part of my journey. I'm by no means an expert at anything, but I plan on using this space to learn out loud!
-
-Insert text and image of website bottom
-
-(assets/img/mts.webp){fig-alt="Three snowshoe siamese cats in loaf mode" fig-align="center" width="100%" height="auto"}
+Sometimes, work follows you along even during you adventures! ![light_painting_phage](assets/img/light_phages.jpg) *Phage infecting a bacterium, Trotter's Gorge, Lab tremp - July 2024*
