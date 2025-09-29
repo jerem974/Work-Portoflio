@@ -1,8 +1,30 @@
 ---
-title: "Talks"
+title: "Communication / Talks"
 listing:
   contents: talks
   type: grid
   sort: "date desc"
   fields: [title, date, categories, description]
 ---
+
+## Public Outreach
+
+-   European Researchers' Night (2021) … *Zoonose workshop*\
+    ![European Researcher's night](assets/img/nuit_europeene_chercheurs.jpg){width="350"}
+
+-   Science Festival … *MinION Oxford Nanopore technology workshop*\
+    ![Science_festival](assets/img/fete_science_nov2021.jpg){width="180"}
+
+-   Thirst for Knowledge (May 2025) … *1hr talk*\
+    ![T4K_talk](assets/img/thirst_for_knowledge.jpeg){width="350"}
+
+## International Conferences
+
+-   Queenstown Research Week (Sept 2025) … *20 mins talk*\
+    ![QRW2025_talk](assets/img/QRW_2025.jpeg){width="150"}
+
+-   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser*\
+    ![Poster EEID](assets/img/poster_EEID.pdf){width="150"}
+
+-   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser* \
+    [▶ Watch](assets/video/EEID_short.mp4){.btn .btn-sm target="_blank" rel="noopener"}
