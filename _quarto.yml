@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site  
+  output-dir: _site
   render:
     - index.qmd
     - talks.qmd
@@ -35,7 +35,7 @@ website:
         href: https://github.com/<your-username>
   page-footer:
     center: "© Jeremy Dubrulle — built with Quarto"
-  favicon: assets/favicon.png
+  favicon: assets/img/phage_logo.png
 
 format:
   html:
