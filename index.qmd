@@ -15,12 +15,16 @@ about:
     - icon: github
       text: My GitHub
       href: https://github.com/jerem974
+    - icon: google-scholar
+      text: My GoogleScholar
+      href: https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en
+    - icon: linkedin
+      text: My LinkedIn
+      href: https://www.linkedin.com/
       rel: me
     - icon: briefcase-fill
       text: PhD PIs
       href: https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran
-    - text: "Support my talk attendance"
-      href: https://ko-fi.com/jadeyryan
 ---
 
 :::: hero
