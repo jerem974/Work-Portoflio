@@ -8,3 +8,21 @@
 /* Listing cards */
 .quarto-listing .listing-item { border:1px solid #eee; border-radius:.75rem; padding:1rem; transition:transform .05s ease; }
 .quarto-listing .listing-item:hover { transform: translateY(-1px); }
+
+/* Sitewide background image (50% opacity) */
+html, body { height: 100%; }
+
+body {
+  position: relative;           /* create a stacking context */
+  background-color: #ffffff;    /* fallback color */
+}
+
+body::before {
+  content: "";
+  position: fixed;              /* stick to viewport */
+  inset: 0;                     /* top/right/bottom/left: 0 */
+  background: url("assets/img/JD_phage.png") center / cover no-repeat;
+  opacity: 0.5;                 /* 50% transparency */
+  z-index: -1;                  /* sit behind page content */
+  pointer-events: none;         /* don’t block clicks */
+}

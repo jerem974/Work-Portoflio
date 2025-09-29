@@ -3,17 +3,25 @@ title: "Jeremy A. Dubrulle Curiculum Vitae"
 format: html
 editor: visual
 ---
-#PUT PDF at assets/Jeremy_dubrulle_Cv.pdf
-[Download CV (PDF)](assets/Jeremy_Dubrulle_CV.pdf){.btn .cta}
 
-![Having fun during the PhD](../../2797A77C-78D8-4657-86DF-1AA6B2ED0081_1_105_c.jpeg)
+Click to download my CV ! [Download CV (PDF)](assets/Jeremy_Dubrulle_CV.pdf){.btn .cta}
+
+#### Education 
+
+image: assets/img/Education_map.png
 
 #### First & first co-author Publications
 
 -   Effect of Land-Use on Hantavirus Infection Among Introduced and Endemic Small Mammals of Madagascar, *Ecology and Evolution, April 2025, <https://doi.org/10.1002/ece3.70914>*
+image: assets/articles/article_mada.png
+
 -   CRISPR2025 New Zealand: Innovation and Collaboration, *The Crispr Journal, May 2025, <https://doi.org/10.1089/crispr.2025.0026>*
+image: assets/articles/crispr.png
 
 #### Co-author Publications
+
+See my GoogleScholar profile for details: [Open Google Scholar Profile](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .cta target="_blank" rel="noopener"}
+
 
 #### Workshop & Conferences
 

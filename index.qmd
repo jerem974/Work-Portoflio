@@ -9,7 +9,7 @@ anchor-sections: false
 about:
   id: hero-heading
   template: jolla
-  image: assets/img/headshot.webp      # <-- change to your actual photo path
+  image: assets/img/headshot.jpeg      # <-- change to your actual photo path
   image-width: 10em
   links:
     - icon: github
