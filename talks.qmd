@@ -20,6 +20,9 @@ listing:
 
 ## International Conferences
 
+-   CRISPR2025 (Feb2025) … *Conference report*\
+    ![CRISPR article](assets/articles/crispr.png){width="350"}
+
 -   Queenstown Research Week (Sept 2025) … *20 mins talk*\
     ![QRW2025_talk](assets/img/QRW_2025.jpeg){width="150"}
 
@@ -27,4 +30,10 @@ listing:
     ![Poster EEID](assets/img/poster_EEID.pdf){width="150"}
 
 -   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser* \
-    [▶ Watch](assets/video/EEID_11MB.mp4){.btn .btn-sm target="_blank" rel="noopener"}
+    #[▶ Watch](assets/video/EEID_11MB.mp4){.btn .btn-sm target="_blank" rel="noopener"}
+
+-   Queenstown Research Week (Sept 2024) … *Poster: Sandhopper project*\
+    ![QRW2024_poster](assets/img/poster_sandhopper_qrw2024.png){width="150"}
+
+-   Maurice Wilkins Symposium (Jan 2025) … *Poster: DS on plasmids project*\
+    ![Maurice_wilkins_2024_poster](assets/img/Poster_Auckland_Symposium.png){width="150"}
