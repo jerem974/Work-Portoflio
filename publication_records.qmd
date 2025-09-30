@@ -1,0 +1,70 @@
+---
+title: "Publication records"
+format: html
+editor: visual
+---
+
+::: {.text-center}
+[Google Scholar Profile Here](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .btn-warning target="_blank" rel="noopener"}
+:::
+
+
+## First-authored
+
+### *2025*
+
+## First co-authored
+
+### *2025*
+
+**CRISPR2025 New Zealand: Innovation and Collaboration**  
+[*Katharina G Wandera, Jeremy Dubrulle, Russell Greene, Meric Ozturk, Gavin Knott, Dipali G Sashital, Peter C Fineran*]{style="font-size:85%"}  
+*The CRISPR Journal … June, 2025*
+
+**Effect of Land‐Use on Hantavirus Infection Among Introduced and Endemic Small Mammals of Madagascar**  
+[*Jérémy Dubrulle, Kayla Kauffman, Voahangy Soarimalala, Toky Randriamoria, Steven M Goodman, James Herrera, Charles Nunn, Pablo Tortosa*]{style="font-size:85%"}  
+*Ecology and Evolution … April, 2025*
+
+
+## Co-authored
+
+### *2025*
+
+**Viral surveillance of invasive mammals in New Zealand reveals unique viral lineages reflecting their introduction history**  
+[*Rebecca K French, Florian Pichlmueller, Stephanie Waller, Jeremy Dubrulle, Jess Tuxford, Andrew Veale, Jemma L Geoghegan*]{style="font-size:85%"}  
+*bioRxiv, 2025.08.27*
+
+**Phage arabinosyl-hydroxy-cytosine DNA modifications result in distinct evasion and sensitivity responses to phage defense systems**  
+[*Marina Mahler, Liang Cui, Leah M Smith, Katharina G Wandera, Oliver Dietrich, David Mayo-Muñoz, Seetharamsing Balamkundu, Megan En Lee, Hong Ye, Chuan-Fa Liu, Junzhou Wu, Juby Mathew, Jeremy Dubrulle, Lucia M Malone, Simon A Jackson, Antony J Fairbanks, Peter C Dedon, Stan JJ Brouns, Peter C Finera*]{style="font-size:85%"}  
+*Cell Host & Microbe ... June, 2025*
+
+**A Metagenomic Investigation into Apteryx rowi Dermatosis Identifies Multiple Novel Viruses and a Highly Abundant Nematode**  
+[*Jordan T Taylor, Vivian Lee, Tracey Dearlove, Megan Jolly, Janelle R Wierenga, Jeremy Dubrulle, James Hodgkinson-Bean, Stuart Hunter, Brett Gartrell, Kerri Morgan, Kate McInnes, Nigel French, Edward C Holmes, Jemma L Geoghegan*]{style="font-size:85%"}  
+*The Journal of Wildlife Diseases ... April 2025*
+
+**Avian influenza virus surveillance across New Zealand and its subantarctic islands detects H1N9 in migratory shorebirds, but not 2.3.4.4b HPAI H5N1**  
+[*SJ Waller, JR Wierenga, L Heremia, JA Darnley, I de Vries, J Dubrulle, ...*]{style="font-size:85%"}  
+*Influenza and Other Respiratory Viruses ... April, 2025*
+
+
+### *2024*
+
+**From islands to infectomes: host-specific viral diversity among birds across remote islands**  
+[*Rebecca M Grimwood, Enzo MR Reyes, Jamie Cooper, Jemma Welch, Graeme Taylor, Troy Makan, Lauren Lim, Jérémy Dubrulle, Kate McInnes, Edward C Holmes, Jemma L Geoghegan*]{style="font-size:85%"}  
+*BMC Ecology and Evolution ... June, 2024*
+
+**Consensus statement from the first RdRp Summit: advancing RNA virus discovery at scale across communities**  
+[*J Charon, I Olendraite, M Forgia, LC Chong, LS Hillary, S Roux, ...*]{style="font-size:85%"}  
+*Frontiers in Virology ... April, 2024*
+
+
+**Viromes of Antarctic fish resemble the diversity found at lower latitudes**  
+[*Rebecca M Grimwood, Stephanie J Waller, Janelle R Wierenga, Lauren Lim, Jérémy Dubrulle, Edward C Holmes, Jemma L Geoghega*]{style="font-size:85%"}  
+*Virus Evolution ... 2024*
+
+
+### *2023*
+
+**A novel gyrovirus is abundant in yellow-eyed penguin (Megadyptes antipodes) chicks with a fatal respiratory disease**  
+[*Janelle R Wierenga, Kerri J Morgan, Stuart Hunter, Harry S Taylor, Lisa S Argilla, Trudi Webster, Jeremy Dubrulle, Fátima Jorge, Mihnea Bostina, Laura Burga, Edward C Holmes, Kate McInnes, Jemma L Geoghegan*]{style="font-size:85%"}  
+*Virolog ... February, 2023*

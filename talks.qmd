@@ -7,36 +7,71 @@ listing:
   fields: [title, date, categories, description]
 ---
 
+### I. International Conferences
 
-### Public Outreach {.text-primary .fw-bold}
 
--   3MT (3 minutes thesis competition, 2025)... *A story of phages & plasmids* ![3MT photo](assets/img/3MT.png)
 
--   European Researchers' Night (2021) … *Zoonose workshop*\
-    ![European Researcher's night](assets/img/nuit_europeene_chercheurs.jpg){width="350"}
+<table style="width:100%; table-layout:fixed; border-collapse:separate; border-spacing:24px;">
+  <colgroup>
+    <col style="width:50%">
+    <col style="width:50%">
+  </colgroup>
+  
+  <tr>
+    <td style="vertical-align:top; padding:0;">
+      <strong>Queenstown Research Week (Sept 2025)</strong> … <em>20 mins talk</em><br>
+      <img src="assets/img/QRW_2025.jpeg" alt="QRW2025_talk"
+           style="width:100%; height:auto; display:block;">
+    </td>
+    <td style="vertical-align:top; padding:0;">
+      <strong>CRISPR2025 (Feb 2025)</strong> … <em>Co-authored Conference report</em><br>
+      <img src="assets/articles/CRISPR2025.png" alt="CRISPR article"
+           style="width:100%; height:auto; display:block;">
+    </td>
+  </tr>
 
--   Science Festival (2021) … *MinION Oxford Nanopore technology workshop*\
-    ![Science_festival](assets/img/fete_science_nov2021.jpg){width="180"}
+  <tr>
+    <td style="vertical-align:top; padding:0;">
+      <strong>Maurice Wilkins Symposium (Jan 2025)</strong> … <em>Poster: DS on plasmids project</em><br>
+      <img src="assets/img/Auckland_symposium.png" alt="Maurice Wilkins poster"
+           style="width:100%; height:auto; display:block;">
+    </td>
+    <td style="vertical-align:top; padding:0;">
+      <strong>Queenstown Research Week (Sept 2024)</strong> … <em>Poster: Sandhopper project</em><br>
+      <img src="assets/img/poster_sandhopper_qrw2024.png" alt="QRW2024 poster"
+           style="width:100%; height:auto; display:block;">
+    </td>
+  </tr>
 
--   Thirst for Knowledge (May 2025) … *1hr talk on Phage Therapy history*\
-    ![T4K_talk](assets/img/T4K_collage.png){width="100%" fig-align="center"} *At Ombrellos, Dunedin. Monthly speakers on various science subject. Audience \~ 50 ppl from the public.*
 
-### International Conferences
+  <tr>
+    <td style="vertical-align:top; padding:0;" colspan="2">
+      <strong>Ecology and Evolution of Infectious Diseases (2021) </strong> … <em>Poster &amp; Video teaser</em><br>
+      <a href="assets/video/EEID_11MB.mp4" target="_blank" rel="noopener">▶ Watch the 1 min teaser</a><br>
+      <img src="assets/img/EEID_poster.png" alt="Poster EEID"
+           style="width:100%; height:auto; display:block;">
+    </td>
+  </tr>
+</table>
 
--   CRISPR2025 (Feb2025) … *Conference report*\
-    ![CRISPR article](assets/articles/crispr.png){width="350"}
 
--   Queenstown Research Week (Sept 2025) … *20 mins talk*\
-    ![QRW2025_talk](assets/img/QRW_2025.jpeg){width="150"}
 
--   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser*\
-    ![Poster EEID](assets/img/EEID_poster.png){width="300"}
 
--   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser* \
-    \#[▶ Watch](assets/video/EEID_11MB.mp4){.btn .btn-sm target="_blank" rel="noopener"}
 
--   Queenstown Research Week (Sept 2024) … *Poster: Sandhopper project*\
-    ![QRW2024_poster](assets/img/poster_sandhopper_qrw2024.png){width="150"}
 
--   Maurice Wilkins Symposium (Jan 2025) … *Poster: DS on plasmids project*\
-    ![Maurice_wilkins_2024_poster](assets/img/Poster_Auckland_Symposium.png){width="150"}
+### II. Public Outreach
+
+-   **3MT** (August 2025) ... *A story of phages, plasmids and antibiotic resistance. Final recording available [here](https://vimeo.com/1119297553){target="_blank" rel="noopener"} from 51'00 to 56'00* ![3MT photo](assets/img/3MT.png)
+
+-   **Thirst for Knowledge** (May 2025) ... *1hr talk on Phage Therapy history*\
+  <small>*At [Ombrellos' Pub](https://www.facebook.com/thirstforknowledge.otago/), Dunedin. Monthly speakers on various science subject. Audience \~ 50 ppl from the public.*</small> 
+    ![T4K_talk](assets/img/T4K_collage.png){width="100%" fig-align="center"}\
+  
+    
+-   **Intreview on Radio1 FM** (May 2025) ... *15 mins talk on the Breakfast Show with Zac Hoffman*\
+    ![Radio Intreview](assets/img/radio1.jpg){width="50%" fig-align="center"}\
+
+-   **European Researchers' Night** (2021) & **Science Festival** … *Zoonose & MinION Oxford Nanopore technology workshop*\
+    ![European Researcher's night & Science festival](assets/img/fete_science_european_night.png){width="100%" fig-align="center"}
+
+

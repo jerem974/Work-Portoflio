@@ -4,105 +4,129 @@ format: html
 editor: visual
 ---
 
-Click to download my CV ! [Download CV (PDF)](assets/Jeremy_Dubrulle_CV.pdf){.btn .cta}
+Click to [download a brief CV!](assets/img/CV.pdf){.btn .btn-warning download="CV.pdf"}
+Or scroll down for the website version!
 
-#### Education
 
-![Education map](assets/img/Education_map.png){width="100%" fig-align="center"}
+## I. Education
 
-#### First & first co-author Publications
+![<span style="color:#0077b6">“Travel is fatal to prejudice, bigotry, and narrow-mindedness.” — Mark Twain](assets/img/Education_map.png){width="100%" fig-align="center"}
 
--   Effect of Land-Use on Hantavirus Infection … *Ecology and Evolution, April 2025*\
-    [Read me](https://doi.org/10.1002/ece3.70914){.btn .btn-sm target="_blank" rel="noopener"}\
+## II. First & First co-authored Publications
+
+
+
+-   **Effect of Land-Use on Hantavirus Infectionn Among Introduced and Endemic Small Mammals of Madagascar** \
+Ecology and Evolution ... April 2025\
+    [Read me](https://doi.org/10.1002/ece3.70914){.btn .btn-sm style="background:#FFE8A1; color:#000; border:1px solid #E6C65B;" target="_blank" rel="noopener"}\
     ![Madagascar article](assets/articles/article_mada.png){width="350"}
 
--   CRISPR2025 New Zealand … *The Crispr Journal, May 2025*\
-    [Read me](https://doi.org/10.1089/crispr.2025.0026){.btn .btn-sm target="_blank" rel="noopener"}\
+-   **CRISPR2025 New Zealand** \
+The Crispr Journal ... May 2025\
+    [Read me](https://doi.org/10.1089/crispr.2025.0026){.btn .btn-sm style="background:#FFE8A1; color:#000; border:1px solid #E6C65B;" target="_blank" rel="noopener"}\
     ![CRISPR article](assets/articles/crispr.png){width="350"}
 
-#### Co-author Publications
+-   **For the 8 other co-authored publications**, please visit [📚 My Publication Record →](Publication_records.qmd){.btn .btn-warning target="_blank" rel="noopener"} or [Open Google Scholar Profile →](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .btn-warning target="_blank" rel="noopener"}
 
-See my GoogleScholar profile for details: [Open Google Scholar Profile](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .cta target="_blank" rel="noopener"}
 
-#### Workshop & Conferences
 
-##### **Conferences attended & presented:**
 
--   Queenstown Research Week:
 
-    -   2023: Listener only
-    -   2024: Poster on Honours' degree work, see article here: **\[insert article link\]**
-    -   2025: 20 mins Talk
+## III. Conferences {.mt-5}
 
--   Auckland Maurice Wilkins Centre Symposium (poster on PhD project)
+> <span style="color:#0077b6">“Science isn’t finished until it’s communicated.” — Sir Mark Walport</span>
 
--   CRISPR2025 (Co-wrote a conference report, available at: <http://dx.doi.org/10.1089/crispr.2025.0026>
+-   **Queenstown Research Week (2023-25):**
+    
+    -   2025 ... *20 mins Talk*
+    -   2024 ... *Poster on Honours' degree work*
+    -   2023 ... *Listener only*
 
--   Ecology and Evolution of Infectious Diseases Conference 2021 (online poster) which then led to the above publication [*https://doi.org/10.1002/ece3.70914*](https://doi.org/10.1002/ece3.70914){.uri}
+-   **Auckland Maurice Wilkins Centre Symposium (2025)**
+    
+    -   *Poster*
 
-##### *Workshops:*
+-   **CRISPR2025 (2025)**
 
--   Quarto and Git reproducibility (2025, two days)
+    -   *Co-authored a conference report, available [here](http://dx.doi.org/10.1089/crispr.2025.0026)*
 
--   Introduction to R and Bash (2024, one week)
+-   **Ecology and Evolution of Infectious Diseases Conference (2021)** 
+    
+    -   *Poster that led to the [above publication](https://doi.org/10.1002/ece3.70914)* 
 
--   ggplot2 visualisation (Genomics Aotearoa, Jun 2025, one day)
 
--   Graduate Research School workshops:
 
-    \##### Self-taught:
+## IV. **Workshops attended:**
 
--   Visualisation with ggplot2
+> <span style="color:#0077b6">“Once you stop learning, you start dying.” — Albert Einstein</span>
 
--   R for data science 2
+-   Quarto and Git reproducibility ... *2025, two days*
 
-### Soft skills
+-   Introduction to R and Bash ... *2024, one week*
 
-### Volunteering (Includes Science communication actions)
+-   Ggplot2 visualisation with Genomics Aotearoa ... *Jun 2025, one day*
 
-##### **Science communication**
+-   Various Graduate Research School workshops
 
-#### Education
 
-#### Work experience
+## V. Soft skills
 
--   Demonstrator PSCI202, Sem. 2, 2025
+- Currently training for **Surf Lifeguard Qualification**
 
--   Demonstrator Micr221, Sem. 1, 2025
+> <span style="color:#0077b6">“Hard skills open doors; soft skills build careers.”</span>
 
--   Demonstrator Micr223, Sem. 2, 2024
 
--   Demonstrator PSCI202, Sem. 2, 2024
+## VI. Work experience
 
--   Research assistant positions
+-   **Demonstrator** ... *2024-Current*
 
-    -   6 months (30hr/week) under Prof. Jemma Geoghegan, University of Otago.
-    -   1.5 year (full-time) under Prof. Pablo Tortosa, University of La Reunion.
+    -  PSCI202, Sem. 2, 2025
+    -  Micr221, Sem. 1, 2025
+    -  Micr223, Sem. 2, 2024
+    -  PSCI202, Sem. 2, 2024
 
--   Bats trapping on Reunion Island (Several overnight trapping missions of endemic bats)
+-   **Research assistant positions** ... *2020-2022*
 
--   European Researchers' Night of Science <https://nuitdeschercheurs-france.eu/?2024>
+    -   **6 months (30hr/week)** under Prof. Jemma Geoghegan, University of Otago.
+    -   **1.5 year (full-time)** under Prof. Pablo Tortosa, University of La Reunion.
+    
+-   Bakery & Sport shop **sell person** ... *2019-2020*
 
--   2x Stall at The Science Festival on Reunion Island
 
-##### **Talks**
+## VII. Volunteering 
 
--   Multiple departmental talk:
-    -   2x Microbiology and Immunology departmental seminars
-    -   1x Zoology departmental seminar
--   Thirst for Knowledge, May 2024 <https://www.facebook.com/thirstforknowledge.otago/>
--   3MT finalist <https://www.otago.ac.nz/postgraduate-study/threeminutethesis>
--   Radio One 91 FM Live Interview on Phage Therapy
+####  **Science communication**
 
-##### **Social engagements**
+> <span style="color:#0077b6">“If you want to master something, teach it.” — Richard Feynman</span>
 
--   Part of the microbiology and immunology social committee (2025-?)
--   Organised & co-oragnised multiple independent events for the department and new students
+-   **European Researchers' Night** (2021) & **Science Festival** … *Zoonose introduction & MinION Oxford Nanopore technology workshop*\
 
-##### Useful materials to know me better
 
-**Github**: <https://github.com/jerem974>
 
-**LinkedIN**:
+####  **Departmental engagement**
 
-**Google Scholar Profile**: <https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en&oi=ao>
+- **Microbiology and Immunology committee** member since 2024 
+
+- **Demonstrator**, *cf.* VII. Work Experience
+
+- **Self-driven initiatives**
+    
+    -  Created the "Monthly Sport Event" in the Microbiology and Immunology department ... *2025*
+    -  Co-lead a treasure hunt for incoming 4th & 5th year students ... *2025*
+
+
+#### **Conservation engagement**
+
+- **Bats trapping** on Réunion Island with several overnight trapping missions … *2020*
+- **2× "Tui-Tui" conservation weekend, one of the rarest birds in the world** … *2020*
+- **Birds trapping** for capture-mark-recapture conservation efforts … *2020*
+
+## VIII. **Talks**
+
+Please visit [🎙 My Talk History](talks.qmd){.btn .btn-warning target="_blank" rel="noopener"}
+
+
+## IX. **Useful materials to know me better**
+
+[{{< iconify simple-icons github >}} GitHub](https://github.com/jerem974){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"} [{{< iconify simple-icons orcid >}} ORCID](https://orcid.org/my-orcid?orcid=0009-0007-1851-4607){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"} [{{< iconify simple-icons linkedin >}} LinkedIn](https://www.linkedin.com/){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"} [{{< iconify simple-icons googlescholar >}} Google Scholar](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"}
+

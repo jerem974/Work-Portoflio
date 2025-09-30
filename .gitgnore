@@ -1,0 +1,27 @@
+
+_site/
+.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+_freeze/
+
+# ---- Exclude large videos ----
+assets/video/
+
+# ---- Exclude Affinity Designer sources & locks ----
+assets/assets_affinity_designer_files/
+*.afdesign
+*~lock~*
+*.afdesign~lock~
+
+# videos (both singular/plural just in case)
+assets/video/
+assets/videos/
+
+# common video extensions anywhere (optional)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm

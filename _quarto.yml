@@ -7,9 +7,11 @@ project:
     - cv.qmd
     - blog/index.qmd
     - projects/index.qmd
+    - publication_records.qmd
     - blog/blog.qmd
 #execute:
 #  freeze: auto
+
 
 website:
   title: "Jeremy A. Dubrulle"
@@ -20,15 +22,18 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: 🏠 Home
       - href: talks.qmd
-        text: Talks
+        text: 🎙 Talks
       - href: cv.qmd
-        text: CV
+        text: 📄 CV
       - href: blog/index.qmd
-        text: Blog
+        text: 👋 Blog
       - href: projects/index.qmd
-        text: Projects
+        text: 💼 Projects
+      - href: publication_records.qmd
+        text: 📚 Publications
+
 
     right:
       - text: GitHub
@@ -39,10 +44,13 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: sandstone
+      dark: slate
     toc: true
     code-copy: true
-    css: assets/styling/yellow_theme.css
+    css: assets/css/custom.css
+
 
 # social cards / SEO
 metadata-files: [assets/seo.yml]
