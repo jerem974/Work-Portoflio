@@ -9,14 +9,16 @@ listing:
 
 ## Public Outreach
 
+-   3MT (3 minutes thesis competition, 2025)... *A story of phages & plasmids* ![3MT photo](assets/img/3MT.png)
+
 -   European Researchers' Night (2021) … *Zoonose workshop*\
     ![European Researcher's night](assets/img/nuit_europeene_chercheurs.jpg){width="350"}
 
--   Science Festival … *MinION Oxford Nanopore technology workshop*\
+-   Science Festival (2021) … *MinION Oxford Nanopore technology workshop*\
     ![Science_festival](assets/img/fete_science_nov2021.jpg){width="180"}
 
--   Thirst for Knowledge (May 2025) … *1hr talk*\
-    ![T4K_talk](assets/img/thirst_for_knowledge.jpeg){width="350"}
+-   Thirst for Knowledge (May 2025) … *1hr talk on Phage Therapy history*\
+    ![T4K_talk](assets/img/T4K_collage.png){width="100%" fig-align="center"} *At Ombrellos, Dunedin. Monthly speakers on various science subject. Audience \~ 50 ppl from the public.*
 
 ## International Conferences
 
@@ -27,10 +29,10 @@ listing:
     ![QRW2025_talk](assets/img/QRW_2025.jpeg){width="150"}
 
 -   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser*\
-    ![Poster EEID](assets/img/poster_EEID.pdf){width="150"}
+    ![Poster EEID](assets/img/EEID_poster.png){width="300"}
 
 -   Ecology and Evolution of Infectious Diseases … *Poster & Video teaser* \
-    #[▶ Watch](assets/video/EEID_11MB.mp4){.btn .btn-sm target="_blank" rel="noopener"}
+    \#[▶ Watch](assets/video/EEID_11MB.mp4){.btn .btn-sm target="_blank" rel="noopener"}
 
 -   Queenstown Research Week (Sept 2024) … *Poster: Sandhopper project*\
     ![QRW2024_poster](assets/img/poster_sandhopper_qrw2024.png){width="150"}
