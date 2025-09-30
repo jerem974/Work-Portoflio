@@ -37,10 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d24c3880db9ce3ca4ea2d5bb002bea1f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd4962aea582f6b1aab0ec0a46c84fc0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-0b87d7106654df6b17cb174d32101411.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-fd4962aea582f6b1aab0ec0a46c84fc0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="assets/styling/yellow_theme.css">
+<link rel="stylesheet" href="assets/css/custom.css">
 <meta name="twitter:title" content="Jeremy A. Dubrulle Curiculum Vitae – Jeremy A. Dubrulle">
 <meta name="twitter:description" content="Phages, AMR and antiphage systems on MGEs">
 <meta name="twitter:image" content="https://jerem974.github.io/Work-Portoflio/assets/social.png">
@@ -79,7 +84,169 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,23 +265,27 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">🏠 Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Talks</span></a>
+<span class="menu-text">🎙 Talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./cv.html" aria-current="page"> 
-<span class="menu-text">CV</span></a>
+<span class="menu-text">📄 CV</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog/index.html"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">👋 Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+<span class="menu-text">💼 Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publication_records.html"> 
+<span class="menu-text">📚 Publications</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -125,6 +296,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -138,13 +310,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#soft-skills" id="toc-soft-skills" class="nav-link active" data-scroll-target="#soft-skills">Soft skills</a></li>
-  <li><a href="#volunteering-includes-science-communication-actions" id="toc-volunteering-includes-science-communication-actions" class="nav-link" data-scroll-target="#volunteering-includes-science-communication-actions">Volunteering (Includes Science communication actions)</a></li>
+  <li><a href="#i.-education" id="toc-i.-education" class="nav-link active" data-scroll-target="#i.-education">I. Education</a></li>
+  <li><a href="#ii.-first-first-co-authored-publications" id="toc-ii.-first-first-co-authored-publications" class="nav-link" data-scroll-target="#ii.-first-first-co-authored-publications">II. First &amp; First co-authored Publications</a></li>
+  <li><a href="#iii.-conferences" id="toc-iii.-conferences" class="nav-link" data-scroll-target="#iii.-conferences">III. Conferences</a></li>
+  <li><a href="#iv.-workshops-attended" id="toc-iv.-workshops-attended" class="nav-link" data-scroll-target="#iv.-workshops-attended">IV. <strong>Workshops attended:</strong></a></li>
+  <li><a href="#v.-soft-skills" id="toc-v.-soft-skills" class="nav-link" data-scroll-target="#v.-soft-skills">V. Soft skills</a></li>
+  <li><a href="#vi.-work-experience" id="toc-vi.-work-experience" class="nav-link" data-scroll-target="#vi.-work-experience">VI. Work experience</a></li>
+  <li><a href="#vii.-volunteering" id="toc-vii.-volunteering" class="nav-link" data-scroll-target="#vii.-volunteering">VII. Volunteering</a></li>
+  <li><a href="#viii.-talks" id="toc-viii.-talks" class="nav-link" data-scroll-target="#viii.-talks">VIII. <strong>Talks</strong></a></li>
+  <li><a href="#ix.-useful-materials-to-know-me-better" id="toc-ix.-useful-materials-to-know-me-better" class="nav-link" data-scroll-target="#ix.-useful-materials-to-know-me-better">IX. <strong>Useful materials to know me better</strong></a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -165,121 +345,155 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Click to download my CV ! <a href="assets/Jeremy_Dubrulle_CV.pdf" class="btn cta">Download CV (PDF)</a></p>
-<section id="education" class="level4">
-<h4 class="anchored" data-anchor-id="education">Education</h4>
+<p>Click to <a href="assets/img/CV.pdf" class="btn btn-warning" download="CV.pdf">download a brief CV!</a> Or scroll down for the website version!</p>
+<section id="i.-education" class="level2">
+<h2 class="anchored" data-anchor-id="i.-education">I. Education</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/img/Education_map.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Education map</figcaption>
+<figcaption><span style="color:#0077b6">“Travel is fatal to prejudice, bigotry, and narrow-mindedness.” — Mark Twain</span></figcaption>
 </figure>
 </div>
 </section>
-<section id="first-first-co-author-publications" class="level4">
-<h4 class="anchored" data-anchor-id="first-first-co-author-publications">First &amp; first co-author Publications</h4>
+<section id="ii.-first-first-co-authored-publications" class="level2">
+<h2 class="anchored" data-anchor-id="ii.-first-first-co-authored-publications">II. First &amp; First co-authored Publications</h2>
 <ul>
-<li><p>Effect of Land-Use on Hantavirus Infection … <em>Ecology and Evolution, April 2025</em><br>
-<a href="https://doi.org/10.1002/ece3.70914" class="btn btn-sm" target="_blank" rel="noopener">Read me</a><br>
+<li><p><strong>Effect of Land-Use on Hantavirus Infectionn Among Introduced and Endemic Small Mammals of Madagascar</strong><br>
+Ecology and Evolution … April 2025<br>
+<a href="https://doi.org/10.1002/ece3.70914" class="btn btn-sm" style="background:#FFE8A1; color:#000; border:1px solid #E6C65B;" target="_blank" rel="noopener">Read me</a><br>
 <img src="assets/articles/article_mada.png" class="img-fluid" width="350" alt="Madagascar article"></p></li>
-<li><p>CRISPR2025 New Zealand … <em>The Crispr Journal, May 2025</em><br>
-<a href="https://doi.org/10.1089/crispr.2025.0026" class="btn btn-sm" target="_blank" rel="noopener">Read me</a><br>
+<li><p><strong>CRISPR2025 New Zealand</strong><br>
+The Crispr Journal … May 2025<br>
+<a href="https://doi.org/10.1089/crispr.2025.0026" class="btn btn-sm" style="background:#FFE8A1; color:#000; border:1px solid #E6C65B;" target="_blank" rel="noopener">Read me</a><br>
 <img src="assets/articles/crispr.png" class="img-fluid" width="350" alt="CRISPR article"></p></li>
+<li><p><strong>For the 8 other co-authored publications</strong>, please visit <a href="Publication_records.qmd" class="btn btn-warning" target="_blank" rel="noopener">📚 My Publication Record →</a> or <a href="https://scholar.google.com/citations?user=0s4R-XUAAAAJ&amp;hl=en" class="btn btn-warning" target="_blank" rel="noopener">Open Google Scholar Profile →</a></p></li>
 </ul>
 </section>
-<section id="co-author-publications" class="level4">
-<h4 class="anchored" data-anchor-id="co-author-publications">Co-author Publications</h4>
-<p>See my GoogleScholar profile for details: <a href="https://scholar.google.com/citations?user=0s4R-XUAAAAJ&amp;hl=en" class="btn cta" target="_blank" rel="noopener">Open Google Scholar Profile</a></p>
-</section>
-<section id="workshop-conferences" class="level4">
-<h4 class="anchored" data-anchor-id="workshop-conferences">Workshop &amp; Conferences</h4>
-<section id="conferences-attended-presented" class="level5">
-<h5 class="anchored" data-anchor-id="conferences-attended-presented"><strong>Conferences attended &amp; presented:</strong></h5>
+<section id="iii.-conferences" class="level2 mt-5">
+<h2 class="mt-5 anchored" data-anchor-id="iii.-conferences">III. Conferences</h2>
+<blockquote class="blockquote">
+<p><span style="color:#0077b6">“Science isn’t finished until it’s communicated.” — Sir Mark Walport</span></p>
+</blockquote>
 <ul>
-<li><p>Queenstown Research Week:</p>
+<li><p><strong>Queenstown Research Week (2023-25):</strong></p>
 <ul>
-<li>2023: Listener only</li>
-<li>2024: Poster on Honours’ degree work, see article here: <strong>[insert article link]</strong></li>
-<li>2025: 20 mins Talk</li>
+<li>2025 … <em>20 mins Talk</em></li>
+<li>2024 … <em>Poster on Honours’ degree work</em></li>
+<li>2023 … <em>Listener only</em></li>
 </ul></li>
-<li><p>Auckland Maurice Wilkins Centre Symposium (poster on PhD project)</p></li>
-<li><p>CRISPR2025 (Co-wrote a conference report, available at: <a href="http://dx.doi.org/10.1089/crispr.2025.0026" class="uri">http://dx.doi.org/10.1089/crispr.2025.0026</a></p></li>
-<li><p>Ecology and Evolution of Infectious Diseases Conference 2021 (online poster) which then led to the above publication <a href="https://doi.org/10.1002/ece3.70914" class="uri"><em>https://doi.org/10.1002/ece3.70914</em></a></p></li>
-</ul>
-</section>
-<section id="workshops" class="level5">
-<h5 class="anchored" data-anchor-id="workshops"><em>Workshops:</em></h5>
+<li><p><strong>Auckland Maurice Wilkins Centre Symposium (2025)</strong></p>
 <ul>
-<li><p>Quarto and Git reproducibility (2025, two days)</p></li>
-<li><p>Introduction to R and Bash (2024, one week)</p></li>
-<li><p>ggplot2 visualisation (Genomics Aotearoa, Jun 2025, one day)</p></li>
-<li><p>Graduate Research School workshops:</p>
-<p>##### Self-taught:</p></li>
-<li><p>Visualisation with ggplot2</p></li>
-<li><p>R for data science 2</p></li>
-</ul>
-</section>
-</section>
-<section id="soft-skills" class="level3">
-<h3 class="anchored" data-anchor-id="soft-skills">Soft skills</h3>
-</section>
-<section id="volunteering-includes-science-communication-actions" class="level3">
-<h3 class="anchored" data-anchor-id="volunteering-includes-science-communication-actions">Volunteering (Includes Science communication actions)</h3>
-<section id="science-communication" class="level5">
-<h5 class="anchored" data-anchor-id="science-communication"><strong>Science communication</strong></h5>
-</section>
-<section id="education-1" class="level4">
-<h4 class="anchored" data-anchor-id="education-1">Education</h4>
-</section>
-<section id="work-experience" class="level4">
-<h4 class="anchored" data-anchor-id="work-experience">Work experience</h4>
-<ul>
-<li><p>Demonstrator PSCI202, Sem. 2, 2025</p></li>
-<li><p>Demonstrator Micr221, Sem. 1, 2025</p></li>
-<li><p>Demonstrator Micr223, Sem. 2, 2024</p></li>
-<li><p>Demonstrator PSCI202, Sem. 2, 2024</p></li>
-<li><p>Research assistant positions</p>
-<ul>
-<li>6 months (30hr/week) under Prof.&nbsp;Jemma Geoghegan, University of Otago.</li>
-<li>1.5 year (full-time) under Prof.&nbsp;Pablo Tortosa, University of La Reunion.</li>
+<li><em>Poster</em></li>
 </ul></li>
-<li><p>Bats trapping on Reunion Island (Several overnight trapping missions of endemic bats)</p></li>
-<li><p>European Researchers’ Night of Science <a href="https://nuitdeschercheurs-france.eu/?2024" class="uri">https://nuitdeschercheurs-france.eu/?2024</a></p></li>
-<li><p>2x Stall at The Science Festival on Reunion Island</p></li>
-</ul>
-<section id="talks" class="level5">
-<h5 class="anchored" data-anchor-id="talks"><strong>Talks</strong></h5>
+<li><p><strong>CRISPR2025 (2025)</strong></p>
 <ul>
-<li>Multiple departmental talk:
-<ul>
-<li>2x Microbiology and Immunology departmental seminars</li>
-<li>1x Zoology departmental seminar</li>
+<li><em>Co-authored a conference report, available <a href="http://dx.doi.org/10.1089/crispr.2025.0026">here</a></em></li>
 </ul></li>
-<li>Thirst for Knowledge, May 2024 <a href="https://www.facebook.com/thirstforknowledge.otago/" class="uri">https://www.facebook.com/thirstforknowledge.otago/</a></li>
-<li>3MT finalist <a href="https://www.otago.ac.nz/postgraduate-study/threeminutethesis" class="uri">https://www.otago.ac.nz/postgraduate-study/threeminutethesis</a></li>
-<li>Radio One 91 FM Live Interview on Phage Therapy</li>
-</ul>
-</section>
-<section id="social-engagements" class="level5">
-<h5 class="anchored" data-anchor-id="social-engagements"><strong>Social engagements</strong></h5>
+<li><p><strong>Ecology and Evolution of Infectious Diseases Conference (2021)</strong></p>
 <ul>
-<li>Part of the microbiology and immunology social committee (2025-?)</li>
-<li>Organised &amp; co-oragnised multiple independent events for the department and new students</li>
+<li><em>Poster that led to the <a href="https://doi.org/10.1002/ece3.70914">above publication</a></em></li>
+</ul></li>
 </ul>
 </section>
-<section id="useful-materials-to-know-me-better" class="level5">
-<h5 class="anchored" data-anchor-id="useful-materials-to-know-me-better">Useful materials to know me better</h5>
-<p><strong>Github</strong>: <a href="https://github.com/jerem974" class="uri">https://github.com/jerem974</a></p>
-<p><strong>LinkedIN</strong>:</p>
-<p><strong>Google Scholar Profile</strong>: <a href="https://scholar.google.com/citations?user=0s4R-XUAAAAJ&amp;hl=en&amp;oi=ao" class="uri">https://scholar.google.com/citations?user=0s4R-XUAAAAJ&amp;hl=en&amp;oi=ao</a></p>
+<section id="iv.-workshops-attended" class="level2">
+<h2 class="anchored" data-anchor-id="iv.-workshops-attended">IV. <strong>Workshops attended:</strong></h2>
+<blockquote class="blockquote">
+<p><span style="color:#0077b6">“Once you stop learning, you start dying.” — Albert Einstein</span></p>
+</blockquote>
+<ul>
+<li><p>Quarto and Git reproducibility … <em>2025, two days</em></p></li>
+<li><p>Introduction to R and Bash … <em>2024, one week</em></p></li>
+<li><p>Ggplot2 visualisation with Genomics Aotearoa … <em>Jun 2025, one day</em></p></li>
+<li><p>Various Graduate Research School workshops</p></li>
+</ul>
+</section>
+<section id="v.-soft-skills" class="level2">
+<h2 class="anchored" data-anchor-id="v.-soft-skills">V. Soft skills</h2>
+<ul>
+<li>Currently training for <strong>Surf Lifeguard Qualification</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><span style="color:#0077b6">“Hard skills open doors; soft skills build careers.”</span></p>
+</blockquote>
+</section>
+<section id="vi.-work-experience" class="level2">
+<h2 class="anchored" data-anchor-id="vi.-work-experience">VI. Work experience</h2>
+<ul>
+<li><p><strong>Demonstrator</strong> … <em>2024-Current</em></p>
+<ul>
+<li>PSCI202, Sem. 2, 2025</li>
+<li>Micr221, Sem. 1, 2025</li>
+<li>Micr223, Sem. 2, 2024</li>
+<li>PSCI202, Sem. 2, 2024</li>
+</ul></li>
+<li><p><strong>Research assistant positions</strong> … <em>2020-2022</em></p>
+<ul>
+<li><strong>6 months (30hr/week)</strong> under Prof.&nbsp;Jemma Geoghegan, University of Otago.</li>
+<li><strong>1.5 year (full-time)</strong> under Prof.&nbsp;Pablo Tortosa, University of La Reunion.</li>
+</ul></li>
+<li><p>Bakery &amp; Sport shop <strong>sell person</strong> … <em>2019-2020</em></p></li>
+</ul>
+</section>
+<section id="vii.-volunteering" class="level2">
+<h2 class="anchored" data-anchor-id="vii.-volunteering">VII. Volunteering</h2>
+<section id="science-communication" class="level4">
+<h4 class="anchored" data-anchor-id="science-communication"><strong>Science communication</strong></h4>
+<blockquote class="blockquote">
+<p><span style="color:#0077b6">“If you want to master something, teach it.” — Richard Feynman</span></p>
+</blockquote>
+<ul>
+<li><strong>European Researchers’ Night</strong> (2021) &amp; <strong>Science Festival</strong> … <em>Zoonose introduction &amp; MinION Oxford Nanopore technology workshop</em><br>
+</li>
+</ul>
+</section>
+<section id="departmental-engagement" class="level4">
+<h4 class="anchored" data-anchor-id="departmental-engagement"><strong>Departmental engagement</strong></h4>
+<ul>
+<li><p><strong>Microbiology and Immunology committee</strong> member since 2024</p></li>
+<li><p><strong>Demonstrator</strong>, <em>cf.</em> VII. Work Experience</p></li>
+<li><p><strong>Self-driven initiatives</strong></p>
+<ul>
+<li>Created the “Monthly Sport Event” in the Microbiology and Immunology department … <em>2025</em></li>
+<li>Co-lead a treasure hunt for incoming 4th &amp; 5th year students … <em>2025</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="conservation-engagement" class="level4">
+<h4 class="anchored" data-anchor-id="conservation-engagement"><strong>Conservation engagement</strong></h4>
+<ul>
+<li><strong>Bats trapping</strong> on Réunion Island with several overnight trapping missions … <em>2020</em></li>
+<li><strong>2× “Tui-Tui” conservation weekend, one of the rarest birds in the world</strong> … <em>2020</em></li>
+<li><strong>Birds trapping</strong> for capture-mark-recapture conservation efforts … <em>2020</em></li>
+</ul>
+</section>
+</section>
+<section id="viii.-talks" class="level2">
+<h2 class="anchored" data-anchor-id="viii.-talks">VIII. <strong>Talks</strong></h2>
+<p>Please visit <a href="./talks.html" class="btn btn-warning" target="_blank" rel="noopener">🎙 My Talk History</a></p>
+</section>
+<section id="ix.-useful-materials-to-know-me-better" class="level2">
+<h2 class="anchored" data-anchor-id="ix.-useful-materials-to-know-me-better">IX. <strong>Useful materials to know me better</strong></h2>
+<p><a href="https://github.com/jerem974" class="btn btn-outline-dark bg-white" target="_blank" rel="noopener"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon> GitHub</a> <a href="https://orcid.org/my-orcid?orcid=0009-0007-1851-4607" class="btn btn-outline-dark bg-white" target="_blank" rel="noopener"><iconify-icon inline="" icon="simple-icons:orcid"></iconify-icon> ORCID</a> <a href="https://www.linkedin.com/" class="btn btn-outline-dark bg-white" target="_blank" rel="noopener"><iconify-icon inline="" icon="simple-icons:linkedin"></iconify-icon> LinkedIn</a> <a href="https://scholar.google.com/citations?user=0s4R-XUAAAAJ&amp;hl=en" class="btn btn-outline-dark bg-white" target="_blank" rel="noopener"><iconify-icon inline="" icon="simple-icons:googlescholar"></iconify-icon> Google Scholar</a></p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

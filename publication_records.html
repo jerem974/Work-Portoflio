@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Communication / Talks – Jeremy A. Dubrulle</title>
+<title>Publication records – Jeremy A. Dubrulle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/img/phage_logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -74,68 +72,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/css/custom.css">
-<meta name="twitter:title" content="Communication / Talks – Jeremy A. Dubrulle">
+<meta name="twitter:title" content="Publication records – Jeremy A. Dubrulle">
 <meta name="twitter:image" content="https://jerem974.github.io/Work-Portoflio/assets/social.png">
 <meta name="twitter:creator" content="@your_handle">
 <meta name="twitter:site" content="@your_handle">
@@ -326,7 +266,7 @@ window.Quarto = {
 <span class="menu-text">🏠 Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./talks.html" aria-current="page"> 
+    <a class="nav-link" href="./talks.html"> 
 <span class="menu-text">🎙 Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -342,7 +282,7 @@ window.Quarto = {
 <span class="menu-text">💼 Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publication_records.html"> 
+    <a class="nav-link active" href="./publication_records.html" aria-current="page"> 
 <span class="menu-text">📚 Publications</span></a>
   </li>  
 </ul>
@@ -368,8 +308,20 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#i.-international-conferences" id="toc-i.-international-conferences" class="nav-link active" data-scroll-target="#i.-international-conferences">I. International Conferences</a></li>
-  <li><a href="#ii.-public-outreach" id="toc-ii.-public-outreach" class="nav-link" data-scroll-target="#ii.-public-outreach">II. Public Outreach</a></li>
+  <li><a href="#first-authored" id="toc-first-authored" class="nav-link active" data-scroll-target="#first-authored">First-authored</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><em>2025</em></a></li>
+  </ul></li>
+  <li><a href="#first-co-authored" id="toc-first-co-authored" class="nav-link" data-scroll-target="#first-co-authored">First co-authored</a>
+  <ul class="collapse">
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><em>2025</em></a></li>
+  </ul></li>
+  <li><a href="#co-authored" id="toc-co-authored" class="nav-link" data-scroll-target="#co-authored">Co-authored</a>
+  <ul class="collapse">
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"><em>2025</em></a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"><em>2024</em></a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"><em>2023</em></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -379,7 +331,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Communication / Talks</h1>
+<h1 class="title">Publication records</h1>
 </div>
 
 
@@ -396,60 +348,67 @@ window.Quarto = {
 </header>
 
 
-<section id="i.-international-conferences" class="level3">
-<h3 class="anchored" data-anchor-id="i.-international-conferences">I. International Conferences</h3>
-<table style="width:100%; table-layout:fixed; border-collapse:separate; border-spacing:24px;">
-<colgroup>
-<col style="width:50%">
-<col style="width:50%">
-</colgroup>
-<tbody><tr>
-<td style="vertical-align:top; padding:0;">
-<strong>Queenstown Research Week (Sept 2025)</strong> … <em>20 mins talk</em><br> <img src="assets/img/QRW_2025.jpeg" alt="QRW2025_talk" style="width:100%; height:auto; display:block;">
-</td>
-<td style="vertical-align:top; padding:0;">
-<strong>CRISPR2025 (Feb 2025)</strong> … <em>Co-authored Conference report</em><br> <img src="assets/articles/CRISPR2025.png" alt="CRISPR article" style="width:100%; height:auto; display:block;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; padding:0;">
-<strong>Maurice Wilkins Symposium (Jan 2025)</strong> … <em>Poster: DS on plasmids project</em><br> <img src="assets/img/Auckland_symposium.png" alt="Maurice Wilkins poster" style="width:100%; height:auto; display:block;">
-</td>
-<td style="vertical-align:top; padding:0;">
-<strong>Queenstown Research Week (Sept 2024)</strong> … <em>Poster: Sandhopper project</em><br> <img src="assets/img/poster_sandhopper_qrw2024.png" alt="QRW2024 poster" style="width:100%; height:auto; display:block;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; padding:0;" colspan="2">
-<strong>Ecology and Evolution of Infectious Diseases (2021) </strong> … <em>Poster &amp; Video teaser</em><br> <a href="assets/video/EEID_11MB.mp4" target="_blank" rel="noopener">▶ Watch the 1 min teaser</a><br> <img src="assets/img/EEID_poster.png" alt="Poster EEID" style="width:100%; height:auto; display:block;">
-</td>
-</tr>
-</tbody></table>
-</section>
-<section id="ii.-public-outreach" class="level3">
-<h3 class="anchored" data-anchor-id="ii.-public-outreach">II. Public Outreach</h3>
-<ul>
-<li><p><strong>3MT</strong> (August 2025) … <em>A story of phages, plasmids and antibiotic resistance. Final recording available <a href="https://vimeo.com/1119297553" target="_blank" rel="noopener">here</a> from 51’00 to 56’00</em> <img src="assets/img/3MT.png" class="img-fluid" alt="3MT photo"></p></li>
-<li><p><strong>Thirst for Knowledge</strong> (May 2025) … <em>1hr talk on Phage Therapy history</em><br>
-<small><em>At <a href="https://www.facebook.com/thirstforknowledge.otago/">Ombrellos’ Pub</a>, Dunedin. Monthly speakers on various science subject. Audience ~ 50 ppl from the public.</em></small> <img src="assets/img/T4K_collage.png" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" alt="T4K_talk"><br>
-</p></li>
-<li><p><strong>Intreview on Radio1 FM</strong> (May 2025) … <em>15 mins talk on the Breakfast Show with Zac Hoffman</em><br>
-<img src="assets/img/radio1.jpg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" alt="Radio Intreview"><br>
-</p></li>
-<li><p><strong>European Researchers’ Night</strong> (2021) &amp; <strong>Science Festival</strong> … <em>Zoonose &amp; MinION Oxford Nanopore technology workshop</em><br>
-<img src="assets/img/fete_science_european_night.png" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" alt="European Researcher’s night &amp; Science festival"></p></li>
-</ul>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-
+<div class="text-center">
+<p><a href="https://scholar.google.com/citations?user=0s4R-XUAAAAJ&amp;hl=en" class="btn btn-warning" target="_blank" rel="noopener">Google Scholar Profile Here</a></p>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<section id="first-authored" class="level2">
+<h2 class="anchored" data-anchor-id="first-authored">First-authored</h2>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"><em>2025</em></h3>
+</section>
+</section>
+<section id="first-co-authored" class="level2">
+<h2 class="anchored" data-anchor-id="first-co-authored">First co-authored</h2>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"><em>2025</em></h3>
+<p><strong>CRISPR2025 New Zealand: Innovation and Collaboration</strong><br>
+<span style="font-size:85%"><em>Katharina G Wandera, Jeremy Dubrulle, Russell Greene, Meric Ozturk, Gavin Knott, Dipali G Sashital, Peter C Fineran</em></span><br>
+<em>The CRISPR Journal … June, 2025</em></p>
+<p><strong>Effect of Land‐Use on Hantavirus Infection Among Introduced and Endemic Small Mammals of Madagascar</strong><br>
+<span style="font-size:85%"><em>Jérémy Dubrulle, Kayla Kauffman, Voahangy Soarimalala, Toky Randriamoria, Steven M Goodman, James Herrera, Charles Nunn, Pablo Tortosa</em></span><br>
+<em>Ecology and Evolution … April, 2025</em></p>
+</section>
+</section>
+<section id="co-authored" class="level2">
+<h2 class="anchored" data-anchor-id="co-authored">Co-authored</h2>
+<section id="section-2" class="level3">
+<h3 class="anchored" data-anchor-id="section-2"><em>2025</em></h3>
+<p><strong>Viral surveillance of invasive mammals in New Zealand reveals unique viral lineages reflecting their introduction history</strong><br>
+<span style="font-size:85%"><em>Rebecca K French, Florian Pichlmueller, Stephanie Waller, Jeremy Dubrulle, Jess Tuxford, Andrew Veale, Jemma L Geoghegan</em></span><br>
+<em>bioRxiv, 2025.08.27</em></p>
+<p><strong>Phage arabinosyl-hydroxy-cytosine DNA modifications result in distinct evasion and sensitivity responses to phage defense systems</strong><br>
+<span style="font-size:85%"><em>Marina Mahler, Liang Cui, Leah M Smith, Katharina G Wandera, Oliver Dietrich, David Mayo-Muñoz, Seetharamsing Balamkundu, Megan En Lee, Hong Ye, Chuan-Fa Liu, Junzhou Wu, Juby Mathew, Jeremy Dubrulle, Lucia M Malone, Simon A Jackson, Antony J Fairbanks, Peter C Dedon, Stan JJ Brouns, Peter C Finera</em></span><br>
+<em>Cell Host &amp; Microbe … June, 2025</em></p>
+<p><strong>A Metagenomic Investigation into Apteryx rowi Dermatosis Identifies Multiple Novel Viruses and a Highly Abundant Nematode</strong><br>
+<span style="font-size:85%"><em>Jordan T Taylor, Vivian Lee, Tracey Dearlove, Megan Jolly, Janelle R Wierenga, Jeremy Dubrulle, James Hodgkinson-Bean, Stuart Hunter, Brett Gartrell, Kerri Morgan, Kate McInnes, Nigel French, Edward C Holmes, Jemma L Geoghegan</em></span><br>
+<em>The Journal of Wildlife Diseases … April 2025</em></p>
+<p><strong>Avian influenza virus surveillance across New Zealand and its subantarctic islands detects H1N9 in migratory shorebirds, but not 2.3.4.4b HPAI H5N1</strong><br>
+<span style="font-size:85%"><em>SJ Waller, JR Wierenga, L Heremia, JA Darnley, I de Vries, J Dubrulle, …</em></span><br>
+<em>Influenza and Other Respiratory Viruses … April, 2025</em></p>
+</section>
+<section id="section-3" class="level3">
+<h3 class="anchored" data-anchor-id="section-3"><em>2024</em></h3>
+<p><strong>From islands to infectomes: host-specific viral diversity among birds across remote islands</strong><br>
+<span style="font-size:85%"><em>Rebecca M Grimwood, Enzo MR Reyes, Jamie Cooper, Jemma Welch, Graeme Taylor, Troy Makan, Lauren Lim, Jérémy Dubrulle, Kate McInnes, Edward C Holmes, Jemma L Geoghegan</em></span><br>
+<em>BMC Ecology and Evolution … June, 2024</em></p>
+<p><strong>Consensus statement from the first RdRp Summit: advancing RNA virus discovery at scale across communities</strong><br>
+<span style="font-size:85%"><em>J Charon, I Olendraite, M Forgia, LC Chong, LS Hillary, S Roux, …</em></span><br>
+<em>Frontiers in Virology … April, 2024</em></p>
+<p><strong>Viromes of Antarctic fish resemble the diversity found at lower latitudes</strong><br>
+<span style="font-size:85%"><em>Rebecca M Grimwood, Stephanie J Waller, Janelle R Wierenga, Lauren Lim, Jérémy Dubrulle, Edward C Holmes, Jemma L Geoghega</em></span><br>
+<em>Virus Evolution … 2024</em></p>
+</section>
+<section id="section-4" class="level3">
+<h3 class="anchored" data-anchor-id="section-4"><em>2023</em></h3>
+<p><strong>A novel gyrovirus is abundant in yellow-eyed penguin (Megadyptes antipodes) chicks with a fatal respiratory disease</strong><br>
+<span style="font-size:85%"><em>Janelle R Wierenga, Kerri J Morgan, Stuart Hunter, Harry S Taylor, Lisa S Argilla, Trudi Webster, Jeremy Dubrulle, Fátima Jorge, Mihnea Bostina, Laura Burga, Edward C Holmes, Kate McInnes, Jemma L Geoghegan</em></span><br>
+<em>Virolog … February, 2023</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
