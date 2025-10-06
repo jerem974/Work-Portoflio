@@ -25,3 +25,5 @@ assets/videos/
 *.avi
 *.mkv
 *.webm
+
+/.quarto/

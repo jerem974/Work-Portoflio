@@ -9,6 +9,7 @@ project:
     - projects/index.qmd
     - publication_records.qmd
     - blog/blog.qmd
+    - volunteering.qmd
 #execute:
 #  freeze: auto
 
@@ -33,6 +34,9 @@ website:
         text: 💼 Projects
       - href: publication_records.qmd
         text: 📚 Publications
+      - href: volunteering.qmd
+        text: 🤝 Volunteering
+
 
 
     right:

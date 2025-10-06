@@ -2,7 +2,7 @@
 pagetitle: "Jeremy A. Dubrulle | About"
 title: "Jeremy A. Dubrulle"
 subtitle: "🦠 Microbiologist 🦠 crazy about phages & nature processes "
-title-block-banner: true
+title-block-banner: "assets/light_phage.jpg"
 toc: false
 anchor-sections: false
 
@@ -65,8 +65,7 @@ Fun fact, I grew up on ***Reunion Island*** - you won't hear that everyday! **I 
 
 Sometimes, work follows you along even during you adventures! ![light_painting_phage](assets/img/light_phage.jpg) *Phage infecting a bacterium, Trotter's Gorge, Lab tremp - July 2024*
 
-:::
-::::
+
 
 ::: {#hero-heading}
 :::

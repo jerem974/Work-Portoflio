@@ -64,7 +64,7 @@ listing:
 -   **3MT** (August 2025) ... *A story of phages, plasmids and antibiotic resistance. Final recording available [here](https://vimeo.com/1119297553){target="_blank" rel="noopener"} from 51'00 to 56'00* ![3MT photo](assets/img/3MT.png)
 
 -   **Thirst for Knowledge** (May 2025) ... *1hr talk on Phage Therapy history*\
-  <small>*At [Ombrellos' Pub](https://www.facebook.com/thirstforknowledge.otago/), Dunedin. Monthly speakers on various science subject. Audience \~ 50 ppl from the public.*</small> 
+
     ![T4K_talk](assets/img/T4K_collage.png){width="100%" fig-align="center"}\
   
     
