@@ -53,7 +53,7 @@ format:
       dark: slate
     mainfont: Georgia
     linkcolor: "#C29829"
-    backgroundcolor: "#ABA163"
+    backgroundcolor: "#FCF8D9"
     toc: true
     code-copy: true
     css: assets/css/custom.css

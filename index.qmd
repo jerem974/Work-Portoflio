@@ -6,7 +6,6 @@ title-block-banner: "assets/light_phage.jpg"
 toc: false
 anchor-sections: false
 
-
     
 about:
   id: hero-heading
@@ -28,6 +27,24 @@ about:
       text: PhD PIs
       href: https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran
 ---
+
+```{=html}
+<style>
+  /* Base page color lives on html so the image can sit above it */
+  html { background-color: #FCF8D9; }
+
+  /* Keep body transparent so the pseudo-bg is visible */
+  body, main.content, #quarto-content { background: transparent !important; }
+
+  /* Faint collage on top of the color */
+  body::before{
+    content:"";
+    position:fixed; inset:0; z-index:-1; pointer-events:none;
+    background: url("/assets/img/phage_bg.webp") center / cover no-repeat;
+    opacity:.38; /* tweak 0.10–0.30 */
+  }
+</style>
+```
 
 ::::::: hero
 :::::: hero-text
