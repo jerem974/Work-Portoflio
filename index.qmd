@@ -29,43 +29,30 @@ about:
       href: https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran
 ---
 
-
-
-:::: hero
-::: hero-text
+::::::: hero
+:::::: hero-text
 # Hi, I’m Jeremy.
 
-![](assets/img/site_banner.png){width=100% fig-alt="Collage of lab & phage images"}
+![](assets/img/site_banner.png){width="100%" fig-alt="Collage of lab & phage images"}
 
-::: {.text-center}
+::: text-center
 ***Thanks for visiting my website fellow scientist -- Let's dive together in the incredible world of (Bacterio)Phages! Here you'll find everything you want to know about me (I hope!) and about phages!***
 :::
 
-I'm a PhD student in the [Fineran group](https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran){.badge .bg-warning-subtle} at the University of Otago, Dunedin, New Zealand. I study plasmid-borne antibiotic resistance and phage defense systems in the context of Phage Therapy. I got into phages reading the Good Virus (Tom Ireland) and I've stucked with them! How cool is it to study Lunar-Exploration-Module-looking like viruses everyday? 
+I'm a PhD student in the [Fineran group](https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran) at the University of Otago, Dunedin, New Zealand. I study plasmid-borne antibiotic resistance and phage defense systems in the context of Phage Therapy. I got into phages reading the Good Virus (Tom Ireland) and I've stucked with them! How cool is it to study Lunar-Exploration-Module-looking like viruses everyday?
 
-I'm a big fan of adventuring and exploring nature's craziest evolution. I'm always on the hunt for some exploration & finding out what natures has to offer!
-When it comes to work, I love the lab! Give me a petri dish of bacteria, and I'll make millions (of phages, of course!).
+I'm a big fan of adventuring and exploring nature's craziest evolution. I'm always on the hunt for some exploration & finding out what natures has to offer! When it comes to work, I love the lab! Give me a petri dish of bacteria, and I'll make millions (of phages, of course!).
 
 Fun fact, I grew up on ***Reunion Island*** - you won't hear that everyday! **I bet you a post-doc contract** that you can't locate it on a map! Check it out: [To Reunion Island blog](https://en.reunion.fr/organize/blog/)
 
-
-
-::: {.text-center}
-[📄 View CV](cv.qmd){.btn .btn-outline-danger} [🎙️ View Talks history](talks.qmd){.btn .btn-outline-danger} [📚 View Publication Records](Publication_records.qmd){.btn .btn-outline-danger}  
+::: text-center
+[📄 View CV](cv.qmd){.btn .btn-outline-danger} [🎙️ View Talks history](talks.qmd){.btn .btn-outline-danger} [📚 View Publication Records](Publication_records.qmd){.btn .btn-outline-danger}\
 [💼 Browse my Projects](projects.qmd){.btn .btn-outline-danger} [👋 Get to know me!](me.qmd){.btn .btn-outline-danger}
 :::
 
-
-
-
-
-
-
-
-
 Sometimes, work follows you along even during you adventures! ![light_painting_phage](assets/img/light_phage.jpg) *Phage infecting a bacterium, Trotter's Gorge, Lab tremp - July 2024*
-
-
 
 ::: {#hero-heading}
 :::
+::::::
+:::::::

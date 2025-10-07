@@ -51,6 +51,9 @@ format:
     theme:
       light: sandstone
       dark: slate
+    mainfont: Georgia
+    linkcolor: "#C29829"
+    backgroundcolor: "#ABA163"
     toc: true
     code-copy: true
     css: assets/css/custom.css

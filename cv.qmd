@@ -4,9 +4,7 @@ format: html
 editor: visual
 ---
 
-Click to [download a brief CV!](assets/img/CV.pdf){.btn .btn-warning download="CV.pdf"}
-Or scroll down for the website version!
-
+Click to [download a brief CV!](assets/img/CV.pdf){.btn .btn-warning download="CV.pdf"} Or scroll down for the website version!
 
 ## I. Education
 
@@ -14,51 +12,43 @@ Or scroll down for the website version!
 
 ## II. First & First co-authored Publications
 
-
-
--   **Effect of Land-Use on Hantavirus Infectionn Among Introduced and Endemic Small Mammals of Madagascar** \
-Ecology and Evolution ... April 2025\
+-   **Effect of Land-Use on Hantavirus Infectionn Among Introduced and Endemic Small Mammals of Madagascar**\
+    Ecology and Evolution ... April 2025\
     [Read me](https://doi.org/10.1002/ece3.70914){.btn .btn-sm style="background:#FFE8A1; color:#000; border:1px solid #E6C65B;" target="_blank" rel="noopener"}\
     ![Madagascar article](assets/articles/article_mada.png){width="350"}
 
--   **CRISPR2025 New Zealand** \
-The Crispr Journal ... May 2025\
+-   **CRISPR2025 New Zealand**\
+    The Crispr Journal ... May 2025\
     [Read me](https://doi.org/10.1089/crispr.2025.0026){.btn .btn-sm style="background:#FFE8A1; color:#000; border:1px solid #E6C65B;" target="_blank" rel="noopener"}\
     ![CRISPR article](assets/articles/crispr.png){width="350"}
 
 -   **For the 8 other co-authored publications**, please visit [📚 My Publication Record →](Publication_records.qmd){.btn .btn-warning target="_blank" rel="noopener"} or [Open Google Scholar Profile →](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .btn-warning target="_blank" rel="noopener"}
 
-
-
-
-
 ## III. Conferences {.mt-5}
 
-> <span style="color:#0077b6">“Science isn’t finished until it’s communicated.” — Sir Mark Walport</span>
+> [“Science isn’t finished until it’s communicated.” — Sir Mark Walport]{style="color:#0077b6"}
 
 -   **Queenstown Research Week (2023-25):**
-    
+
     -   2025 ... *20 mins Talk*
     -   2024 ... *Poster on Honours' degree work*
     -   2023 ... *Listener only*
 
 -   **Auckland Maurice Wilkins Centre Symposium (2025)**
-    
+
     -   *Poster*
 
 -   **CRISPR2025 (2025)**
 
     -   *Co-authored a conference report, available [here](http://dx.doi.org/10.1089/crispr.2025.0026)*
 
--   **Ecology and Evolution of Infectious Diseases Conference (2021)** 
-    
-    -   *Poster that led to the [above publication](https://doi.org/10.1002/ece3.70914)* 
+-   **Ecology and Evolution of Infectious Diseases Conference (2021)**
 
-
+    -   *Poster that led to the [above publication](https://doi.org/10.1002/ece3.70914)*
 
 ## IV. **Workshops attended:**
 
-> <span style="color:#0077b6">“Once you stop learning, you start dying.” — Albert Einstein</span>
+> [“Once you stop learning, you start dying.” — Albert Einstein]{style="color:#0077b6"}
 
 -   Quarto and Git reproducibility ... *2025, two days*
 
@@ -68,65 +58,66 @@ The Crispr Journal ... May 2025\
 
 -   Various Graduate Research School workshops
 
-
 ## V. Soft skills
 
-- Currently training for **Surf Lifeguard Qualification**
+> [“Hard skills open doors; soft skills build careers.”]{style="color:#0077b6"}
 
-> <span style="color:#0077b6">“Hard skills open doors; soft skills build careers.”</span>
+- Teamwork player 
+
+- Energy & Positivity 
+
+- Talk enthusiast 
+
+- 
+
+-   Currently training for **Surf Lifeguard Qualification**
 
 
 ## VI. Work experience
 
 -   **Demonstrator** ... *2024-Current*
 
-    -  PSCI202, Sem. 2, 2025
-    -  Micr221, Sem. 1, 2025
-    -  Micr223, Sem. 2, 2024
-    -  PSCI202, Sem. 2, 2024
+    -   PSCI202, Sem. 2, 2025
+    -   Micr221, Sem. 1, 2025
+    -   Micr223, Sem. 2, 2024
+    -   PSCI202, Sem. 2, 2024
 
 -   **Research assistant positions** ... *2020-2022*
 
     -   **6 months (30hr/week)** under Prof. Jemma Geoghegan, University of Otago.
     -   **1.5 year (full-time)** under Prof. Pablo Tortosa, University of La Reunion.
-    
+
 -   Bakery & Sport shop **sell person** ... *2019-2020*
 
+## VII. Volunteering
 
-## VII. Volunteering 
+#### **Science communication**
 
-####  **Science communication**
-
-> <span style="color:#0077b6">“If you want to master something, teach it.” — Richard Feynman</span>
+> [“If you want to master something, teach it.” — Richard Feynman]{style="color:#0077b6"}
 
 -   **European Researchers' Night** (2021) & **Science Festival** … *Zoonose introduction & MinION Oxford Nanopore technology workshop*\
 
+#### **Departmental engagement**
 
+-   **Microbiology and Immunology committee** member since 2024
 
-####  **Departmental engagement**
+-   **Demonstrator**, *cf.* VII. Work Experience
 
-- **Microbiology and Immunology committee** member since 2024 
+-   **Self-driven initiatives**
 
-- **Demonstrator**, *cf.* VII. Work Experience
-
-- **Self-driven initiatives**
-    
-    -  Created the "Monthly Sport Event" in the Microbiology and Immunology department ... *2025*
-    -  Co-lead a treasure hunt for incoming 4th & 5th year students ... *2025*
-
+    -   Created the "Monthly Sport Event" in the Microbiology and Immunology department ... *2025*
+    -   Co-lead a treasure hunt for incoming 4th & 5th year students ... *2025*
 
 #### **Conservation engagement**
 
-- **Bats trapping** on Réunion Island with several overnight trapping missions … *2020*
-- **2× "Tui-Tui" conservation weekend, one of the rarest birds in the world** … *2020*
-- **Birds trapping** for capture-mark-recapture conservation efforts … *2020*
+-   **Bats trapping** on Réunion Island with several overnight trapping missions … *2020*
+-   **2× "Tui-Tui" conservation weekend, one of the rarest birds in the world** … *2020*
+-   **Birds trapping** for capture-mark-recapture conservation efforts … *2020*
 
 ## VIII. **Talks**
 
 Please visit [🎙 My Talk History](talks.qmd){.btn .btn-warning target="_blank" rel="noopener"}
 
-
 ## IX. **Useful materials to know me better**
 
 [{{< iconify simple-icons github >}} GitHub](https://github.com/jerem974){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"} [{{< iconify simple-icons orcid >}} ORCID](https://orcid.org/my-orcid?orcid=0009-0007-1851-4607){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"} [{{< iconify simple-icons linkedin >}} LinkedIn](https://www.linkedin.com/){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"} [{{< iconify simple-icons googlescholar >}} Google Scholar](https://scholar.google.com/citations?user=0s4R-XUAAAAJ&hl=en){.btn .btn-outline-dark .bg-white target="_blank" rel="noopener"}
-
