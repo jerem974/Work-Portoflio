@@ -41,9 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fd4962aea582f6b1aab0ec0a46c84fc0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0b87d7106654df6b17cb174d32101411.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fd4962aea582f6b1aab0ec0a46c84fc0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6d14fc6463ab81e52827ac480497a049.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-0710c52e5d3faf08c220f4698706e041.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6d14fc6463ab81e52827ac480497a049.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -331,6 +331,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<style>
+  /* Base page color lives on html so the image can sit above it */
+  html { background-color: #FCF8D9; }
+
+  /* Keep body transparent so the pseudo-bg is visible */
+  body, main.content, #quarto-content { background: transparent !important; }
+
+  /* Faint collage on top of the color */
+  body::before{
+    content:"";
+    position:fixed; inset:0; z-index:-1; pointer-events:none;
+    background: url("./assets/img/phage_bg.webp") center / cover no-repeat;
+    opacity:.38; /* tweak 0.10–0.30 */
+  }
+</style>
 <div class="hero">
 <section id="hi-im-jeremy." class="level1 hero-text">
 <h1>Hi, I’m Jeremy.</h1>
@@ -338,7 +353,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="text-center">
 <p><strong><em>Thanks for visiting my website fellow scientist – Let’s dive together in the incredible world of (Bacterio)Phages! Here you’ll find everything you want to know about me (I hope!) and about phages!</em></strong></p>
 </div>
-<p>I’m a PhD student in the <a href="https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran" class="badge bg-warning-subtle">Fineran group</a> at the University of Otago, Dunedin, New Zealand. I study plasmid-borne antibiotic resistance and phage defense systems in the context of Phage Therapy. I got into phages reading the Good Virus (Tom Ireland) and I’ve stucked with them! How cool is it to study Lunar-Exploration-Module-looking like viruses everyday?</p>
+<p>I’m a PhD student in the <a href="https://www.otago.ac.nz/microbiology-and-immunology/our-people/peter-fineran">Fineran group</a> at the University of Otago, Dunedin, New Zealand. I study plasmid-borne antibiotic resistance and phage defense systems in the context of Phage Therapy. I got into phages reading the Good Virus (Tom Ireland) and I’ve stucked with them! How cool is it to study Lunar-Exploration-Module-looking like viruses everyday?</p>
 <p>I’m a big fan of adventuring and exploring nature’s craziest evolution. I’m always on the hunt for some exploration &amp; finding out what natures has to offer! When it comes to work, I love the lab! Give me a petri dish of bacteria, and I’ll make millions (of phages, of course!).</p>
 <p>Fun fact, I grew up on <strong><em>Reunion Island</em></strong> - you won’t hear that everyday! <strong>I bet you a post-doc contract</strong> that you can’t locate it on a map! Check it out: <a href="https://en.reunion.fr/organize/blog/">To Reunion Island blog</a></p>
 <div class="text-center">
@@ -372,11 +387,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 
-
-
-
 </section>
 </div>
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
